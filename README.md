@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Trifle
 
-## Getting Started
+Trifle is a platform designed to facilitate anonymous problem-sharing and project generation. Users can anonymously post problems they face in their daily lives, and an AI-powered system generates project ideas for users. These ideas can span various domains including software, hardware, finance, etc. Users can then develop these project ideas, post them on the platform, and earn rewards. Both problem posters and project developers maintain digital anonymity throughout the process.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Anonymous problem posting: Users can share their daily life problems anonymously.
+- AI-based project idea generation: An AI system generates project ideas in response to the posted problems.
+- Project development and posting: Users can develop projects based on generated ideas and post them anonymously.
+- Reward system: Both problem posters and project developers earn rewards based on the popularity and impact of their contributions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Frontend: Next.js
+- Backend: Next.js
+- Database: MongoDB
+- API Testing: Postman
+- Authentication - Auth0
