@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
+import connectDB from '../db/connect';
+
+connectDB(); 
 
 const inter = Inter({ subsets: ["latin"] });
 
